@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+<body>
+<img class='zeroed' src='https://i.redd.it/ud879hgumila1.jpg' />
+<svg id='infoBoxLink' class='zeroed' style='display: none;'>
+  <path id='link' d='M-999,0' stroke='white' stroke-width='3' stroke-linecap='round' fill='transparent'/>
+  <circle r='4' fill='#ffffff'>
+    <animateMotion dur='1s' repeatCount='indefinite'>
+      <mpath xlink:href='#link'/>
+    </animateMotion>
+  </circle>
+</svg>
+
+<div id='infoBox' style='display: none;'>
+  <div id='infoBoxTraitName'></div>
+  <div id='infoBoxTraitDesc'></div>
+  <div id='infoBoxNameSpoiler'></div>
+  <div id='infoBoxDescSpoiler'>Spoiler! Click to reveal</div>
+</div>
+
+<img id='infoBoxTraitIcon' style='display: none; position: absolute; left: 611px; top: 382px; width: 140px; height: 140px;'></img>
+<div class='trait' id='trait_tray_0_0' style='left: 11.5px; top: 167.5px; width: 77px; height: 77px; animation-delay: 0.082s;'></div>
+<div class='trait' id='trait_tray_0_1' style='left: 11.5px; top: 261.1px; width: 77px; height: 77px; animation-delay: 0.112s;'></div>
+<div class='trait' id='trait_tray_0_2' style='left: 11.5px; top: 354.7px; width: 77px; height: 77px; animation-delay: 0.142s;'></div>
+<div class='trait' id='trait_tray_0_3' style='left: 11.5px; top: 448.3px; width: 77px; height: 77px; animation-delay: 0.172s;'></div>
+<div class='trait' id='trait_tray_0_4' style='left: 11.5px; top: 541.9px; width: 77px; height: 77px; animation-delay: 0.202s;'></div>
+<div class='trait' id='trait_tray_0_5' style='left: 11.5px; top: 635.5px; width: 77px; height: 77px; animation-delay: 0.232s;'></div>
+<div class='trait' id='trait_tray_0_6' style='left: 11.5px; top: 729.1px; width: 77px; height: 77px; animation-delay: 0.263s;'></div>
+<div class='trait' id='trait_tray_1_1' style='left: 83.5px; top: 308.1px; width: 77px; height: 77px; animation-delay: 0.15s;'></div>
+<div class='trait' id='trait_tray_1_2' style='left: 83.5px; top: 401.7px; width: 77px; height: 77px; animation-delay: 0.181s;'></div>
+<div class='trait' id='trait_tray_1_3' style='left: 83.5px; top: 495.3px; width: 77px; height: 77px; animation-delay: 0.211s;'></div>
+<div class='trait' id='trait_tray_1_4' style='left: 83.5px; top: 588.9px; width: 77px; height: 77px; animation-delay: 0.241s;'></div>
+<div class='trait' id='trait_tray_1_5' style='left: 83.5px; top: 682.5px; width: 77px; height: 77px; animation-delay: 0.271s;'></div>
+<div class='trait' id='trait_tray_2_1' style='left: 147.75px; top: 261.1px; width: 77px; height: 77px; animation-delay: 0.156s;'></div>
+<div class='trait' id='trait_tray_2_2' style='left: 147.75px; top: 354.7px; width: 77px; height: 77px; animation-delay: 0.186s;'></div>
+<div class='trait' id='trait_tray_2_3' style='left: 147.75px; top: 448.3px; width: 77px; height: 77px; animation-delay: 0.216s;'></div>
+<div class='trait' id='trait_tray_2_4' style='left: 147.75px; top: 541.9px; width: 77px; height: 77px; animation-delay: 0.246s;'></div>
+<div class='trait' id='trait_tray_2_5' style='left: 147.75px; top: 635.5px; width: 77px; height: 77px; animation-delay: 0.276s;'></div>
+<div class='trait' id='trait_tray_2_6' style='left: 147.75px; top: 729.1px; width: 77px; height: 77px; animation-delay: 0.306s;'></div>
+<div class='trait' id='trait_tray_3_1' style='left: 212px; top: 308.1px; width: 77px; height: 77px; animation-delay: 0.192s;'></div>
+<div class='trait' id='trait_tray_3_2' style='left: 212px; top: 401.7px; width: 77px; height: 77px; animation-delay: 0.222s;'></div>
+<div class='trait' id='trait_pins_0' style='left: 424.95px; top: 185.55px; width: 93.6px; height: 93.6px; animation-delay: 0.226s;'></div>
+<div class='trait' id='trait_pins_1' style='left: 424.95px; top: 353.45px; width: 93.6px; height: 93.6px; animation-delay: 0.28s;'></div>
+<div class='trait' id='trait_pins_2' style='left: 424.95px; top: 521.35px; width: 93.6px; height: 93.6px; animation-delay: 0.334s;'></div>
+<div class='trait' id='trait_pins_3' style='left: 424.95px; top: 689.25px; width: 93.6px; height: 93.6px; animation-delay: 0.388s;'></div>
+<div class='trait' id='trait_pins_4' style='left: 424.95px; top: 857.15px; width: 93.6px; height: 93.6px; animation-delay: 0.442s;'></div>
+
+<a href='http://www.reddit.com/r/HadesTheGame/comments/11gz8p5/i_wanted_to_get_a_sub_10_run_before_hades_2_did/' style='font-size: xx-large; position: absolute; top: 1090px;'>Source</a>
+<style type='text/css'>
+  .trait {
+    position: absolute;
+    transform: rotateZ(45deg) scale(0.9);
+    animation: pulse 3s infinite;
+  }
+  
+  @keyframes pulse {
+  	0% {
+  	  box-shadow: 0 0 0 0 rgb(255, 255, 255);
+  	}
+  
+  	25% {
+  	  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0);
+  	}
+  }
+  
+  .zeroed {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 1080px;
+  }
+  
+  #infoBox img {
+    vertical-align: middle;
+  }
+  
+  #infoBox {
+    left: 588px;
+    top: 360px;
+    width: 960px;
+    height: 185px;
+    padding: 1em;
+    padding-left: 180px;
+    
+    position: absolute;
+    border: 3px double white;
+    box-shadow: rgb(0, 0, 0) 0px 0px 40px 20px;
+    background: rgba(1, 1, 1, 0.9);
+    color: white;
+    overflow: hidden;
+    line-break: auto;
+    box-sizing: border-box;
+  }
+  
+  #infoBoxTraitName {
+    font-family: Tahoma, sans-serif;
+    font-size: x-large;
+    padding-bottom: 0.5em;
+  }
+  
+  #infoBoxTraitDesc {
+    font-family: Tahoma, sans-serif;
+  }
+  
+  #infoBoxDescSpoiler {
+    font-family: Tahoma, sans-serif;
+  }
+</style>
+
+<script type='text/javascript'>
+
+  trait_data = {};
+trait_data['trait_tray_0_0'] = { name: 'Companion Battie • Megaera', desc: 'Your <b>Summon</b> deals <span style=\'color:#00ff00\'>2500</span> damage in an area near your closest foe, then continually down the line.', icon: '../icons/Companion Battie.png', is_spoiler: false };
+trait_data['trait_tray_0_1'] = { name: 'Deadly Strike • Artemis', desc: 'Your <b>Attack</b> is stronger, with <span style=\'color:#00ff00\'>+15%</span> chance to deal <b>Critical</b> damage.', icon: '../icons/Deadly Strike.png', is_spoiler: false };
+trait_data['trait_tray_0_2'] = { name: 'Empty Slot', desc: '&lt;No <b>Special</b> slot boon equipped&gt;', icon: '../icons/special.png', is_spoiler: false };
+trait_data['trait_tray_0_3'] = { name: 'Crush Shot • Aphrodite', desc: 'Your <b>Cast</b> is a wide, short-range blast that inflicts <b>Weak</b>.', icon: '../icons/Crush Shot.png', is_spoiler: false };
+trait_data['trait_tray_0_4'] = { name: 'Tidal Dash • Poseidon', desc: 'Your <b>Dash</b> damages foes in an area and knocks them away.', icon: '../icons/Tidal Dash.png', is_spoiler: false };
+trait_data['trait_tray_0_5'] = { name: 'Empty Slot', desc: '&lt;No <b>Call</b> slot boon equipped&gt;', icon: '../icons/call.png', is_spoiler: false };
+trait_data['trait_tray_0_6'] = { name: 'Black Shawl • Nyx', desc: 'Deal more damage striking undamaged foes; also by striking foes from behind.', icon: '../icons/Black Shawl.png', is_spoiler: false };
+trait_data['trait_tray_1_1'] = { name: 'Eris Bangle • Charon\'s Well', desc: 'You deal <span style=\'color:#00ff00\'>+50%</span> damage striking undamaged foes.', icon: '../icons/Eris Bangle.png', is_spoiler: false };
+trait_data['trait_tray_1_2'] = { name: 'Cyclops Jerky • Charon\'s Well', desc: 'Your <b>Attack</b> deals <span style=\'color:#00ff00\'>+30%</span> damage.', icon: '../icons/Cyclops Jerky.png', is_spoiler: false };
+trait_data['trait_tray_1_3'] = { name: 'Prometheus Stone • Charon\'s Well', desc: 'Gain <span style=\'color:#00ff00\'>+1</span> <img width=\'25px\' src=\'../icons/text/ammo.png\'/> for your <b>Cast</b>.', icon: '../icons/Prometheus Stone.png', is_spoiler: false };
+trait_data['trait_tray_1_4'] = { name: 'Explosive Shot • Heart-Seeking Bow', desc: 'Your <b>Attack</b> deals <span style=\'color:#00ff00\'>+300%</span> damage in an area, but charges slower.', icon: '../icons/Explosive Shot.png', is_spoiler: false };
+trait_data['trait_tray_1_5'] = { name: 'Grasp • Chaos', desc: 'You have <span style=\'color:#00ff00\'>+X</span> <img width=\'25px\' src=\'../icons/text/ammo.png\'/>', icon: '../icons/Grasp.png', is_spoiler: false };
+trait_data['trait_tray_2_1'] = { name: 'Aspect of Hera • Heart-Seeking Bow', desc: 'Your <b>Cast</b> loads <img width=\'25px\' src=\'../icons/text/ammo.png\'/> into your next <b>Attack</b>, firing on impact<br>Bonus to Bloodstone Drop Time.', icon: '../icons/Aspect of Hera.png', is_spoiler: false };
+trait_data['trait_tray_2_2'] = { name: 'Heart of Stone • Bouldy', desc: 'You believe in Bouldy, and Bouldy believes in you. Apply a random buff.', icon: '../icons/Heart of Stone.png', is_spoiler: true };
+trait_data['trait_tray_2_3'] = { name: 'Auto Reload • Hermes', desc: 'You regenerate <img width=\'25px\' src=\'../icons/text/ammo.png\'/> faster.', icon: '../icons/Auto Reload.png', is_spoiler: false };
+trait_data['trait_tray_2_4'] = { name: 'Blown Kiss • Aphrodite', desc: 'Your <b>Cast</b> shoots farther and is stronger against undamaged foes.', icon: '../icons/Blown Kiss.png', is_spoiler: false };
+trait_data['trait_tray_2_5'] = { name: 'Mirage Shot • Artemis, Poseidon', desc: 'Your <b>Cast</b> fires a second projectile, which deals reduced base damage.', icon: '../icons/Mirage Shot.png', is_spoiler: false };
+trait_data['trait_tray_2_6'] = { name: 'Twin Shot • Heart-Seeking Bow', desc: 'Your <b>Attack</b> fires <span style=\'color:#00ff00\'>2</span> shots side-by-side, but has reduced range.', icon: '../icons/Twin Shot.png', is_spoiler: false };
+trait_data['trait_tray_3_1'] = { name: 'Greatest Reflex • Hermes', desc: 'You can <b>Dash</b> more times in a row.', icon: '../icons/Greatest Reflex.png', is_spoiler: false };
+trait_data['trait_tray_3_2'] = { name: 'Hunter\'s Mark • Artemis', desc: 'After you deal <b>Critical</b> damage to a foe, a foe near it is <b>Marked</b>.', icon: '../icons/Hunter\'s Mark.png', is_spoiler: false };
+trait_data['trait_pins_0'] = { name: 'Aspect of Hera • Heart-Seeking Bow', desc: 'Your <b>Cast</b> loads <img width=\'25px\' src=\'../icons/text/ammo.png\'/> into your next <b>Attack</b>, firing on impact<br>Bonus to Bloodstone Drop Time.', icon: '../icons/Aspect of Hera.png', is_spoiler: false };
+trait_data['trait_pins_1'] = { name: 'Explosive Shot • Heart-Seeking Bow', desc: 'Your <b>Attack</b> deals <span style=\'color:#00ff00\'>+300%</span> damage in an area, but charges slower.', icon: '../icons/Explosive Shot.png', is_spoiler: false };
+trait_data['trait_pins_2'] = { name: 'Crush Shot • Aphrodite', desc: 'Your <b>Cast</b> is a wide, short-range blast that inflicts <b>Weak</b>.', icon: '../icons/Crush Shot.png', is_spoiler: false };
+trait_data['trait_pins_3'] = { name: 'Grasp • Chaos', desc: 'You have <span style=\'color:#00ff00\'>+X</span> <img width=\'25px\' src=\'../icons/text/ammo.png\'/>', icon: '../icons/Grasp.png', is_spoiler: false };
+trait_data['trait_pins_4'] = { name: 'Mirage Shot • Artemis, Poseidon', desc: 'Your <b>Cast</b> fires a second projectile, which deals reduced base damage.', icon: '../icons/Mirage Shot.png', is_spoiler: false };
+
+  function CheckTraits(event, isClick) {
+  
+    var anyActive = false;
+    var allTraits = document.getElementsByClassName('trait');
+    
+    for (var i = 0; i < allTraits.length; i++) {
+      var bounds = allTraits[i].getBoundingClientRect();
+      
+      //only activate if mouse is in the diamond zone
+      var dx = Math.abs(event.clientX - (bounds.x + bounds.width / 2));
+      var dy = Math.abs(event.clientY - (bounds.y + bounds.height / 2));
+      var d = dx / bounds.width + dy / bounds.height;
+      if (d <= 0.5) {
+        SetActiveTrait(allTraits[i], isClick);
+        anyActive = true;
+        break;
+      }
+      else {
+        allTraits[i].style.border = allTraits[i].style.margin = '';
+      }
+    }
+    
+    if (!anyActive) {
+      document.getElementById('infoBox').style.display = 'none';
+      document.getElementById('infoBoxLink').style.display = 'none';
+      document.getElementById('infoBoxTraitIcon').style.display = 'none';
+    }
+  }
+  
+  function SetActiveTrait(trait, isClick) {
+  
+    if (trait.style.border != '' && !isClick) {
+      return;
+    }
+  
+    var allTraits = document.getElementsByClassName('trait');
+  
+    //hide all
+    for (var i = 0; i < allTraits.length; i++) {
+      allTraits[i].style.border = allTraits[i].style.margin = '';
+    }
+  
+    trait.style.border = '3px solid white';
+    trait.style.margin = '-3px';
+    var traitBox = trait.getBoundingClientRect();
+    traitBox = new DOMRect(traitBox.left + window.scrollX, traitBox.top + window.scrollY, traitBox.width, traitBox.height);
+    
+    var infoBox = document.getElementById('infoBox');
+    var infoBoxLink = document.getElementById('infoBoxLink');
+    
+    infoBox.style.display = '';
+    var infoBoxBox = infoBox.getBoundingClientRect();
+    infoBoxBox = new DOMRect(infoBoxBox.left + window.scrollX, infoBoxBox.top + window.scrollY, infoBoxBox.width, infoBoxBox.height);
+  
+    //fill text fields
+    var data = trait_data[trait.id];
+    var traitName = document.getElementById('infoBoxTraitName');
+    var traitDesc = document.getElementById('infoBoxTraitDesc');
+    var spoilerWarningName = document.getElementById('infoBoxNameSpoiler');
+    var spoilerWarningDesc = document.getElementById('infoBoxDescSpoiler');
+  
+    traitName.innerText = data.name;
+    traitDesc.innerHTML = data.desc;
+  
+    //position info box
+    infoBoxLink.style.display = '';
+    var line = infoBoxLink.children['link'];
+  
+    //draw curve
+    var c1x = (traitBox.right - 2) + (infoBoxBox.left - traitBox.right) / 2;
+    var c1y = traitBox.top + traitBox.height / 2;
+    var c2x = infoBoxBox.left - (infoBoxBox.left - traitBox.right) / 2;
+    var c2y = infoBoxBox.top + infoBoxBox.height / 2;
+  
+    var d = 'M' + (traitBox.right - 2) + ',' + (traitBox.top + traitBox.height / 2) + ' C' +
+      c1x + ',' + c1y + ' ' + c2x + ',' + c2y + ' ' + infoBoxBox.left + ',' + (infoBoxBox.top + infoBoxBox.height / 2);
+  
+    line.setAttributeNS(null, 'd', d);
+  
+    //set icon
+    var infoBoxIcon = document.getElementById('infoBoxTraitIcon');
+    infoBoxIcon.style.display = '';
+    infoBoxIcon.src = data.icon;
+  
+    //blank out spoilers
+    if(data.is_spoiler && !isClick) {
+      traitDesc.style.display = traitName.style.display = 'none';
+      spoilerWarningName.style.display = spoilerWarningDesc.style.display = '';
+    } else {
+      traitDesc.style.display = traitName.style.display = '';
+      spoilerWarningName.style.display = spoilerWarningDesc.style.display = 'none';
+      data.is_spoiler = false; //remember revealed traits
+    }
+  }
+  
+  document.addEventListener('mousemove', (event) => CheckTraits(event, false));
+  document.addEventListener('mousedown', (event) => CheckTraits(event, true));
+</script>
+
+</body>
+</html>
